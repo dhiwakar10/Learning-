@@ -1,0 +1,128 @@
+Java Script
+
+* It is a used to create interactive and dynamic web pages.
+    
+   Variables
+
+* variables are containers for storing information or data.
+*Example: Var a=10
+          var b=20 
+          console.log(a+b) 
+Example 1:
+  To create a variables name "Price","Product","Tax" and print the 
+name of the product.calculate the total price amount(total=price+Tax)
+then print it.
+           *var price = 100
+             var product="laptop"
+             var tax = 50
+             console.log(product)   
+             var total = price+tax
+             console.log(total)
+
+JAVASCRIPTS KEYWORDS: 
+   var,let,const,if,switch,for,function,return,try
+
+ JAVASCRIPTS COMMENTS:
+     * Single line comment  "//"
+     * Multi line comment "/*"
+
+JAVASCRIPTS OPERATORS:
+    * +, -, *, /
+x=5;
+y=++x;
+console.log(x);
+console.log(y);
+
+
+JAVASCRIPTS DATATYPE:
+   *Number, String, Boolean, Null, Undefined
+
+JAVASCRIPTS FUNCTIONS:
+
+     It is a function is a block of code designed to perform a particular task.
+Syntax:
+
+
+Example:
+function Samsung()
+{
+    console.log("This is Samsung phone ")
+}
+function Oppo()
+{
+    console.log("This is Oppo phone ")
+}
+function Vivo()
+{
+    console.log("This is Vivo phone ")
+}
+function Redmi()
+{
+    console.log("This is Redmi phone ")
+}
+Samsung()
+Vivo()
+Oppo()
+
+output:
+This is Samsung phone
+This is Vivo phone
+This is Oppo phone
+
+EXAMPLE:
+var factor="Vijay"
+var fplayers="Rohit"
+var fmovies="Friends"
+console.log("Favourite Actor:" + factor)
+console.log("Favourite players:"+ fplayers)
+console.log("Favourite Movie:"+fmovies)
+
+
+PARAMETERS:
+function add(a,b)
+{
+    console.log(a+b)
+}
+add(10,20)
+
+EXAMPLE:  
+function area(l,b)
+{
+    var a=l*b
+    console.log("Area is:"+a)
+}
+var length=20
+var breadth=40
+area(20,40)
+output:
+PS C:\Users\Welcome\Desktop\JAVASCRIPTS> node demo.js    S> node demo.js
+Area is:800  
+
+IF ELSE
+if(true)
+{
+    console.log("Its True")
+}
+else{
+    console.log("Its false")
+}
+
+Example 1: Is it raining outside?
+-if the answer is "yes", Print "Take an umbrella."
+-if the answer is "no", Print "Enjoy the sunshine."
+
+var rain = true 
+if(rain)
+{
+    console.log("Take an umbrella.")
+}
+else{
+    console.log("Enjoy the sunshine.")
+}
+
+Output:
+Take an umbrella.
+
+
+
+
