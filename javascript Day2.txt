@@ -1,0 +1,66 @@
+DAY 2
+
+LOGICAL AND
+  console.log(true&&true);  //true
+  console.log(true&&false);   //false 
+  AND => 1 condition false => false
+  Remaing condition true
+
+LOGICAL OR
+  console.log(true || false);  //true
+  OR = 1 condition true = true
+
+LOGICAL NOT
+  console.log(!true);  //false
+  console.log(!false);  //true
+
+Example: 1. Question: What is the color of the traffic light?
+  - If the answer is "red", print"stop."
+  - If the answer is "yellow", print"get ready."
+  - If the answer is "green", print"go."
+
+ var colour = "red"
+if(colour == "red")
+{
+    console.log("STOP")
+}
+if(colour == "yellow")
+{
+    console.log("GET READY")
+}
+if(colour == "green")
+{
+    console.log("GO")
+}
+
+2. Question: What is the score in a game?
+- If the score is less than 50,print "You Need to Improve."
+- If the score is between 50 and 70 (inclusive),print"Good Job."
+- If the score is greater than 70,print "Excellent Performance."
+
+var score = 50
+if(score<=50)
+{
+    console.log("You Need to Improve")
+}
+else if(score>50 && score<=70)
+{
+    console.log("Good Job")
+}
+else if(score>70)
+{
+    console.log("Excellent Performance")
+}
+
+FOR LOO
+*Initialization
+*Condition
+*Iteration
+
+Example program: for(count=1;count<=10;count=count+1)
+{
+    console.log("John")
+}
+
+
+
